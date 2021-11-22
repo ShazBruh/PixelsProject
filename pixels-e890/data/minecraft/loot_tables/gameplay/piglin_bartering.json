@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -18,7 +18,6 @@
 				"minecraft:bane_of_arthropods",
 				"minecraft:blast_protection",
 				"minecraft:channeling",
-				"minecraft:depth_strider",
 				"minecraft:efficiency",
 				"minecraft:feather_falling",
 				"minecraft:fire_aspect",
@@ -27,7 +26,6 @@
 				"minecraft:frost_walker",
 				"minecraft:impaling",
 				"minecraft:infinity",
-				"minecraft:knockback",
 				"minecraft:looting",
 				"minecraft:loyalty",
 				"minecraft:luck_of_the_sea",
@@ -35,18 +33,15 @@
 				"minecraft:multishot",
 				"minecraft:piercing",
 				"minecraft:power",
-				"minecraft:projectile_protection",
 				"minecraft:protection",
 				"minecraft:punch",
 				"minecraft:quick_charge",
 				"minecraft:respiration",
 				"minecraft:riptide",
-				"minecraft:sharpness",
 				"minecraft:silk_touch",
 				"minecraft:smite",
 				"minecraft:sweeping",
 				"minecraft:thorns",
-				"minecraft:unbreaking"
               ]
             }
           ],
@@ -54,13 +49,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:soul_speed",
-				"minecraft:protection",
 				"minecraft:fire_protection",
 				"minecraft:blast_protection",
 				"minecraft:depth_strider",
@@ -78,11 +72,11 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "tag": "{Potion:\"minecraft:luck\"}"
             }
           ],
           "name": "minecraft:potion"
@@ -115,11 +109,9 @@
               "enchantments": [
 			    "minecraft:protection",
 				"minecraft:fire_protection",
-				"minecraft:blast_protection",
 				"minecraft:projectile_protection",
 				"minecraft:mending",
 				"minecraft:thorns",
-				"minecraft:unbreaking"
               ]
             }
           ],
@@ -140,7 +132,6 @@
 				"minecraft:thorns",
 				"minecraft:unbreaking",
 				"minecraft:respiration",
-				"minecraft:aqua_affinity"
               ]
             }
           ],
@@ -156,9 +147,7 @@
 				"minecraft:mending",
 				"minecraft:unbreaking",
 				"minecraft:infinity",
-				"minecraft:power",
-				"minecraft:punch",
-				"minecraft:flame"
+
               ]
             }
           ],
@@ -187,7 +176,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "tag": "{Potion:\"minecraft:health_boost\"}"
             }
           ],
           "name": "minecraft:splash_potion"
@@ -198,7 +187,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strength\"}"
+              "tag": "{Potion:\"minecraft:weakness\"}"
             }
           ],
           "name": "minecraft:potion"
@@ -225,8 +214,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 4.0,
+                "min": 1.0,
+                "max": 64.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -240,8 +229,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 64.0,
+                "max": 512.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -265,12 +254,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 1,
           "name": "minecraft:obsidian"
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -285,7 +274,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 40,
           "name": "minecraft:netherite_hoe"
         },
         {
@@ -310,7 +299,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -325,7 +314,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -345,8 +334,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6.0,
-                "max": 12.0,
+                "min": 32.0,
+                "max": 64.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -370,7 +359,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -385,13 +374,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 19,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 6.0,
+                "min": 8.0,
+                "max": 32.0,
                 "type": "minecraft:uniform"
               }
             }
